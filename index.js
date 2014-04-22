@@ -5,8 +5,8 @@
  *
  */
 
-var classes = require('classes');
-var events = require('events');
+var classes = require('component-classes');
+var events = require('component-events');
 
 var hasTouch = 'ontouchend' in window;
 var zIndex = 999;
